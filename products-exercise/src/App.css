@@ -1,0 +1,90 @@
+.center{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin:25px;
+}
+
+.artwork{
+  border: 2px solid grey;
+  padding:15px;
+  margin:25px;
+  
+}
+.link-to{
+  text-decoration: none;
+}
+
+.mainName{
+  text-align: center;
+  color: black;
+  
+}
+
+
+.mainPrice{
+  text-align: center;
+  color: black;
+ 
+}
+
+.artwork:hover{
+  transform: scale(1.2);
+  
+}
+
+.show{
+  
+  text-align: center;
+  padding: 20px;
+}
+
+.showPhoto{
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
+}
+
+.insideArea{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: start; */
+}
+
+.showName{
+  padding: 1% 0%;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.showPrice{
+  padding: 2% 0%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.showInfo{
+  padding: 0px 15%;
+  line-height: 1.5;
+}
+
+.header{
+  font-family: 'Kalam', cursive;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding-left: 7%;
+  border-bottom: 1px solid grey;
+  margin-bottom: 2%;
+}
+
+.search{
+  text-align: center; 
+}
+
+input{
+  width:70%;
+  height:30px;
+  text-align: center;
+  
+}
